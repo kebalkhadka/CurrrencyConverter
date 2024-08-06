@@ -93,7 +93,7 @@ const CurrencyConverter = () => {
           onChange={handleAmountChange}
         />
       </div>
-      <div className="mt-6 flex justify-end">
+      <div className="mt-6 flex justify-center">
         <button className="px-5 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" onClick={convertCurrency}>Convert</button>
       </div>
       {convertedAmount !== null && (
